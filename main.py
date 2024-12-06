@@ -13,7 +13,7 @@ def test():
 i = 0
 win_counter = 0
 total = 0
-while i < 1000000000:
+while i < 10000000000:
     output = test()
     if output == 1:
         win_counter = win_counter + 1
